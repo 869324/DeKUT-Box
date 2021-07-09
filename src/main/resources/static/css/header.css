@@ -1,0 +1,56 @@
+body{
+	margin: 0px;
+}
+.navBar{
+	background-color: #1F7F0F;
+	display: flex;
+	justify-content: space-between;
+	
+}
+.logo{
+	display: flex;
+}
+.links{
+	text-transform: uppercase;
+	border-bottom: 2px solid transparent;
+	transition: border-bottom 0.5s;
+	text-decoration: none;
+	transition: color 0.5s;
+	color: #C8CFC7;
+	margin-left: 20px;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+.navBar img{
+	max-height: 100px;
+	max-width: 100px;
+	width: auto;
+	height: auto;
+	background-color: #227C13;
+}
+
+.links a:hover{
+	border-bottom: 1px solid #FCFEFC;
+	color: #FCFEFC;
+}
+.links a:active{
+	border-bottom: 1px solid #FCFEFC;
+	color: #FCFEFC;
+}
+.signature{
+	margin-bottom: auto;
+	margin-top: auto;
+}
+#name{
+	font-size: 1.3em;
+	
+}
+#motto{
+	margin-left: auto;
+	margin-right: auto;
+	color: #B31E09;
+}
+.user{
+	margin-top: auto;
+	margin-bottom: auto;
+}
